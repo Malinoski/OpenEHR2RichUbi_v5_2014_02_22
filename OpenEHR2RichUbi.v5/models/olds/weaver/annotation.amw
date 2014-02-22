@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<AnnotationModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="mmw_annotation" xmi:id="AnnotationModel1">
+  <referencedModel xmi:id="AnnotatedModel1" name="referencedModel" ref="/OpenEHR2RichUbi/OpenEHR2RichUbi.v2/metamodels/openehr/openehr2008.ecore"/>
+  <systemRoot>
+    <teleconsultationSystem name="AToMS" id="AToMS">
+      <paramedic name="SOcorrista" id="SOcorrista">
+        <request name="Form01" id="Form01">
+          <archetypeReferences archetypeId="openEHR-EHR-OBSERVATION.blood_pressure.v1"/>
+        </request>
+        <request name="Form02" id="Form02">
+          <archetypeReferences archetypeId="openEHR-EHR-OBSERVATION.body_weight.v1"/>
+        </request>
+      </paramedic>
+      <specialist name="Cardiologista" id="Cardiologista">
+        <response name="View01" id="View01">
+          <archetypeReferences archetypeId="openEHR-EHR-OBSERVATION.blood_pressure.v1"/>
+        </response>
+      </specialist>
+    </teleconsultationSystem>
+  </systemRoot>
+</AnnotationModel>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<weaver>
+<weaving>
+<relative-path>/OpenEHR2RichUbi.v2/models/weaver/annotation.amw</relative-path>
+<panel>TransformationWeavingPanelExtension</panel>
+<wmodel>AnnotationModel</wmodel>
+</weaving>
+<metamodels>
+<plugin/>
+<local/>
+<complete>/OpenEHR2RichUbi/OpenEHR2RichUbi.v2/metamodels/weaver/mmw_annotation.ecore</complete>
+</metamodels>
+<woven id="0">
+<model-relative-path>null</model-relative-path>
+<metamodel-relative-path>/OpenEHR2RichUbi/OpenEHR2RichUbi.v2/metamodels/openehr/openehr2008.ecore</metamodel-relative-path>
+<reference>referencedModel</reference>
+<title>referencedModel</title>
+<panel>DefaultWovenPanelExtension</panel>
+<wmodelref>AnnotatedModel</wmodelref>
+</woven>
+</weaver>

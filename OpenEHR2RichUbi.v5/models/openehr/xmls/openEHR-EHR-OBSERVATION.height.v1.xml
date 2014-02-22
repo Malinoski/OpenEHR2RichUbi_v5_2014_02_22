@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype xmlns="http://schemas.openehr.org/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <original_language>
+    <terminology_id>
+      <value>ISO_639-1</value>
+    </terminology_id>
+    <code_string>en</code_string>
+  </original_language>
+  <is_controlled>false</is_controlled>
+  <description>
+    <original_author id="email">sam.heard@oceaninformatics.com</original_author>
+    <original_author id="date">9/03/2006</original_author>
+    <original_author id="name">Sam Heard</original_author>
+    <original_author id="organisation">Ocean Informatics</original_author>
+    <other_contributors>Jeroen Meintjen, Medisch Centrum Alkmaar, Netherlands</other_contributors>
+    <other_contributors>Sebastian Garde, Ocean Informatics, Germany</other_contributors>
+    <other_contributors>Heather Leslie, Ocean Informatics, Australia</other_contributors>
+    <other_contributors>Omer Hotomaroglu, Turkey</other_contributors>
+    <other_contributors>Andrew James, University of Toronto, Canada</other_contributors>
+    <other_contributors>Anne Harbison, Australia</other_contributors>
+    <other_contributors>Thilo Schuler, Germany</other_contributors>
+    <other_contributors>Anneke Goossen, Results 4 Care, Netherlands</other_contributors>
+    <other_contributors>Rikard Lovstrom, Swedish Medical Association, Sweden</other_contributors>
+    <other_contributors>Heather Grain, Llewelyn Informatics, Australia</other_contributors>
+    <other_contributors>Hans Demski, Helmholtz Zentrum München, Germany</other_contributors>
+    <other_contributors>Soon Ghee Yap, Singapore Health Services Pte Ltd, Singapore</other_contributors>
+    <other_contributors>Paul Donaldson, Nursing Informatics Australia, Australia</other_contributors>
+    <other_contributors>Rong Chen, Cambio Healthcare Systems, Sweden</other_contributors>
+    <other_contributors>Sundaresan Jagannathan, Scottish NHS, United Kingdom</other_contributors>
+    <other_contributors>Ian McNicoll, Ocean Informatics, United Kingdom</other_contributors>
+    <other_contributors>Marja Buur, Medisch Centrum Alkmaar, Netherlands</other_contributors>
+    <lifecycle_state>AuthorDraft</lifecycle_state>
+    <resource_package_uri />
+    <other_details id="MD5-CAM-1.0.1">13DA6577AADC8AFABB5571E915058D9F</other_details>
+    <other_details id="references">Wilks Z, Bryan S, Mead V and Davies EH. Clinical guideline: Height, measuring a child [Internet]. London, United Kingdom: UCL Institute of Child Health; 2008 Apr 01 [cited 2009 Jul 28 ]. Available from: http://www.ich.ucl.ac.uk/clinical_information/clinical_guidelines/cpg_guideline_00060</other_details>
+    <details>
+      <language>
+        <terminology_id>
+          <value>ISO_639-1</value>
+        </terminology_id>
+        <code_string>en</code_string>
+      </language>
+      <purpose>To record the length of the body from crown of head to sole of foot of an individual - both actual and approximate, and either in a standing or recumbent position.</purpose>
+      <keywords>shrinkage</keywords>
+      <keywords>increase</keywords>
+      <keywords>decrease</keywords>
+      <keywords>height loss</keywords>
+      <keywords>height</keywords>
+      <keywords>length</keywords>
+      <keywords>growth</keywords>
+      <use>To be used for recording the actual height or body length of an individual at any point in time.  A statement identifying the physical incompleteness of the body can be recorded in the 'Confounding factors' protocol element, if required.  This is the usual archetype to be used for a typical measurement of height or body length, independent of the clinical setting.
+Can also be used for recording an approximation of height or body length measurement in a clinical scenario where it is not possible to measure an accurate height or length - for example, measuring an uncooperative child.  This is not modelled explicitly in the archetype as the openEHR Reference model allows the attribute of Approximation for any Quantity data type.  At implementation, for example, an application user interface could allow clinicians to select an appropriately labelled check box adjacent to the Height data field to indicate that the recorded height is an approximation, rather than actual.
+In general, length measurements are recommended for children under 2 years of age and individuals who cannot stand; height measurements for all others.
+Ideally, height is measured standing on both feet with weight distributed evenly, heels together and both buttocks and heels in contact with a vertical back board; body length is measured in a fully extended, supine position with the pelvis flat, legs extended and feet flexed. 
+Use to record growth and loss of height.  This can currently be modelled by constraining the 'any event' to an interval in a template with associated mathematical function of increase or decrease, as appropriate.</use>
+      <misuse>Not to be used to record the first length of an infant soon after birth which is designated as their 'birth length' - use the specialisation of this archetype - see OBSERVATION.height-birth.
+Not to be used to record the adjusted height or body length eg a calculation of the estimated full height of a person with limb contractures, based on other body part measurements and/or an algorithm - use OBSERVATION.height-adjusted.
+Not to be used to record growth velocity.
+Not to be used to record the length of an object or specific body part.</misuse>
+      <copyright>© openEHR Foundation</copyright>
+    </details>
+    <details>
+      <language>
+        <terminology_id>
+          <value>ISO_639-1</value>
+        </terminology_id>
+        <code_string>pt-br</code_string>
+      </language>
+      <purpose>Para registar o comprimento do corpo de um indivíduo, medindo da coroa da cabeça a sola do pé.
+A medida pode ser tanto real como aproximada, quer seja com a posição do indivíduo de pé ou em decúbito dorsal.</purpose>
+      <keywords>encolhimento</keywords>
+      <keywords>crescimento</keywords>
+      <keywords>diminuição</keywords>
+      <keywords>diminuição da altura</keywords>
+      <keywords>altura</keywords>
+      <keywords>comprimento</keywords>
+      <keywords>crescimento</keywords>
+      <use>Usada para gravar a altura real ou comprimento do corpo de um indivíduo a qualquer momento.
+A indicação da imperfeição física do corpo pode ser gravado no elemento 'protocolo fatores de confusão', se necessário.
+Este é o arquétipo de uso habitual para a medição típica de altura ou comprimento do corpo, independente da situação clínica. 
+Também pode ser usado para a gravação de uma altura aproximada ou de medição do comprimento do corpo em um cenário clínico no qual não é possível medir uma altura ou comprimento exato - por exemplo, a medição de uma criança que não coopera. Isso não é modelada explicitamente no arquétipo como o modelo de referência openEHR permite que o atributo de aproximação para qualquer tipo de dados quantitativos. Na execução, por exemplo, uma interface de usuário do aplicativo pode permitir que os clínicos para selecionar uma caixa de seleção devidamente setados junto ao campo de dados de altura para indicar que a altura registrada é uma aproximação, ao invés de reais. 
+Em geral, as medidas de comprimento são recomendados para crianças menores de dois anos de idade e indivíduos que não podem ficar, as medições de altura para todos os outros. 
+Idealmente, a altura é medida em pé sobre dois pés com peso distribuído uniformemente, os calcanhares unidos e as duas nádegas e calcanhares em contato com uma placa vertical para trás; comprimento do corpo é medido em uma posição totalmente estendida, supino com a pelve plana, pernas estendidas e os pés flexionados. 
+Use para registar um crescimento e perda de altura. Isso pode ser modelado por restringir a 'qualquer evento' a um intervalo em um modelo associado com a função matemática de aumentar ou diminuir, conforme o caso.</use>
+      <misuse>Não deve ser utilizado para gravar o primeiro comprimento de um bebê, logo após o nascimento. Para isso é designado o "comprimento de nascimento" - use a especialização desse arquétipo - ver OBSERVATION.height-birth.
+Não deve ser utilizado para registrar a altura ajustada ou comprimento do corpo por exemplo, um cálculo da altura estimada completo de uma pessoa com contraturas dos membros, com base em medições outro corpo e / ou um algoritmo - use OBSERVATION.height-adjusted.
+Não deve ser usado para registrar a velocidade de crescimento.
+Não deve ser utilizado para gravar o tamanho de um objeto ou parte específica do corpo.</misuse>
+      <copyright>© openEHR Foundation</copyright>
+    </details>
+  </description>
+  <archetype_id>
+    <value>openEHR-EHR-OBSERVATION.height.v1</value>
+  </archetype_id>
+  <concept>at0000</concept>
+  <definition>
+    <rm_type_name>OBSERVATION</rm_type_name>
+    <occurrences>
+      <lower_included>true</lower_included>
+      <upper_included>true</upper_included>
+      <lower_unbounded>false</lower_unbounded>
+      <upper_unbounded>false</upper_unbounded>
+      <lower>1</lower>
+      <upper>1</upper>
+    </occurrences>
+    <node_id>at0000</node_id>
+    <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+      <rm_attribute_name>data</rm_attribute_name>
+      <existence>
+        <lower_unbounded>false</lower_unbounded>
+        <upper_unbounded>false</upper_unbounded>
+        <lower>1</lower>
+        <upper>1</upper>
+      </existence>
+      <children xsi:type="C_COMPLEX_OBJECT">
+        <rm_type_name>HISTORY</rm_type_name>
+        <occurrences>
+          <lower_included>true</lower_included>
+          <upper_included>true</upper_included>
+          <lower_unbounded>false</lower_unbounded>
+          <upper_unbounded>false</upper_unbounded>
+          <lower>1</lower>
+          <upper>1</upper>
+        </occurrences>
+        <node_id>at0001</node_id>
+        <attributes xsi:type="C_MULTIPLE_ATTRIBUTE">
+          <rm_attribute_name>events</rm_attribute_name>
+          <existence>
+            <lower_unbounded>false</lower_unbounded>
+            <upper_unbounded>false</upper_unbounded>
+            <lower>1</lower>
+            <upper>1</upper>
+          </existence>
+          <children xsi:type="C_COMPLEX_OBJECT">
+            <rm_type_name>EVENT</rm_type_name>
+            <occurrences>
+              <lower_included>true</lower_included>
+              <upper_included>false</upper_included>
+              <lower_unbounded>false</lower_unbounded>
+              <upper_unbounded>true</upper_unbounded>
+              <lower>1</lower>
+            </occurrences>
+            <node_id>at0002</node_id>
+            <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+              <rm_attribute_name>data</rm_attribute_name>
+              <existence>
+                <lower_unbounded>false</lower_unbounded>
+                <upper_unbounded>false</upper_unbounded>
+                <lower>1</lower>
+                <upper>1</upper>
+              </existence>
+              <children xsi:type="C_COMPLEX_OBJECT">
+                <rm_type_name>ITEM_TREE</rm_type_name>
+                <occurrences>
+                  <lower_included>true</lower_included>
+                  <upper_included>true</upper_included>
+                  <lower_unbounded>false</lower_unbounded>
+                  <upper_unbounded>false</upper_unbounded>
+                  <lower>1</lower>
+                  <upper>1</upper>
+                </occurrences>
+                <node_id>at0003</node_id>
+                <attributes xsi:type="C_MULTIPLE_ATTRIBUTE">
+                  <rm_attribute_name>items</rm_attribute_name>
+                  <existence>
+                    <lower_unbounded>false</lower_unbounded>
+                    <upper_unbounded>false</upper_unbounded>
+                    <lower>1</lower>
+                    <upper>1</upper>
+                  </existence>
+                  <children xsi:type="C_COMPLEX_OBJECT">
+                    <rm_type_name>ELEMENT</rm_type_name>
+                    <occurrences>
+                      <lower_included>true</lower_included>
+                      <upper_included>true</upper_included>
+                      <lower_unbounded>false</lower_unbounded>
+                      <upper_unbounded>false</upper_unbounded>
+                      <lower>1</lower>
+                      <upper>1</upper>
+                    </occurrences>
+                    <node_id>at0004</node_id>
+                    <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+                      <rm_attribute_name>value</rm_attribute_name>
+                      <existence>
+                        <lower_unbounded>false</lower_unbounded>
+                        <upper_unbounded>false</upper_unbounded>
+                        <lower>1</lower>
+                        <upper>1</upper>
+                      </existence>
+                      <children xsi:type="C_DV_QUANTITY">
+                        <rm_type_name>DV_QUANTITY</rm_type_name>
+                        <occurrences>
+                          <lower_included>true</lower_included>
+                          <upper_included>true</upper_included>
+                          <lower_unbounded>false</lower_unbounded>
+                          <upper_unbounded>false</upper_unbounded>
+                          <lower>1</lower>
+                          <upper>1</upper>
+                        </occurrences>
+                        <node_id />
+                        <property>
+                          <terminology_id>
+                            <value>openehr</value>
+                          </terminology_id>
+                          <code_string>122</code_string>
+                        </property>
+                        <list>
+                          <magnitude>
+                            <lower_included>true</lower_included>
+                            <upper_included>true</upper_included>
+                            <lower_unbounded>false</lower_unbounded>
+                            <upper_unbounded>false</upper_unbounded>
+                            <lower>0.0</lower>
+                            <upper>1000.0</upper>
+                          </magnitude>
+                          <units>cm</units>
+                        </list>
+                        <list>
+                          <magnitude>
+                            <lower_included>true</lower_included>
+                            <upper_included>true</upper_included>
+                            <lower_unbounded>false</lower_unbounded>
+                            <upper_unbounded>false</upper_unbounded>
+                            <lower>0.0</lower>
+                            <upper>250.0</upper>
+                          </magnitude>
+                          <units>in</units>
+                        </list>
+                      </children>
+                    </attributes>
+                  </children>
+                  <children xsi:type="C_COMPLEX_OBJECT">
+                    <rm_type_name>ELEMENT</rm_type_name>
+                    <occurrences>
+                      <lower_included>true</lower_included>
+                      <upper_included>true</upper_included>
+                      <lower_unbounded>false</lower_unbounded>
+                      <upper_unbounded>false</upper_unbounded>
+                      <lower>0</lower>
+                      <upper>1</upper>
+                    </occurrences>
+                    <node_id>at0018</node_id>
+                    <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+                      <rm_attribute_name>value</rm_attribute_name>
+                      <existence>
+                        <lower_unbounded>false</lower_unbounded>
+                        <upper_unbounded>false</upper_unbounded>
+                        <lower>1</lower>
+                        <upper>1</upper>
+                      </existence>
+                      <children xsi:type="C_COMPLEX_OBJECT">
+                        <rm_type_name>DV_TEXT</rm_type_name>
+                        <occurrences>
+                          <lower_included>true</lower_included>
+                          <upper_included>true</upper_included>
+                          <lower_unbounded>false</lower_unbounded>
+                          <upper_unbounded>false</upper_unbounded>
+                          <lower>1</lower>
+                          <upper>1</upper>
+                        </occurrences>
+                        <node_id />
+                      </children>
+                    </attributes>
+                  </children>
+                  <cardinality>
+                    <is_ordered>false</is_ordered>
+                    <is_unique>false</is_unique>
+                    <interval>
+                      <lower_included>true</lower_included>
+                      <upper_included>false</upper_included>
+                      <lower_unbounded>false</lower_unbounded>
+                      <upper_unbounded>true</upper_unbounded>
+                      <lower>1</lower>
+                    </interval>
+                  </cardinality>
+                </attributes>
+              </children>
+            </attributes>
+            <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+              <rm_attribute_name>state</rm_attribute_name>
+              <existence>
+                <lower_unbounded>false</lower_unbounded>
+                <upper_unbounded>false</upper_unbounded>
+                <lower>1</lower>
+                <upper>1</upper>
+              </existence>
+              <children xsi:type="C_COMPLEX_OBJECT">
+                <rm_type_name>ITEM_TREE</rm_type_name>
+                <occurrences>
+                  <lower_included>true</lower_included>
+                  <upper_included>true</upper_included>
+                  <lower_unbounded>false</lower_unbounded>
+                  <upper_unbounded>false</upper_unbounded>
+                  <lower>1</lower>
+                  <upper>1</upper>
+                </occurrences>
+                <node_id>at0013</node_id>
+                <attributes xsi:type="C_MULTIPLE_ATTRIBUTE">
+                  <rm_attribute_name>items</rm_attribute_name>
+                  <existence>
+                    <lower_unbounded>false</lower_unbounded>
+                    <upper_unbounded>false</upper_unbounded>
+                    <lower>1</lower>
+                    <upper>1</upper>
+                  </existence>
+                  <children xsi:type="C_COMPLEX_OBJECT">
+                    <rm_type_name>ELEMENT</rm_type_name>
+                    <occurrences>
+                      <lower_included>true</lower_included>
+                      <upper_included>true</upper_included>
+                      <lower_unbounded>false</lower_unbounded>
+                      <upper_unbounded>false</upper_unbounded>
+                      <lower>0</lower>
+                      <upper>1</upper>
+                    </occurrences>
+                    <node_id>at0014</node_id>
+                    <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+                      <rm_attribute_name>value</rm_attribute_name>
+                      <existence>
+                        <lower_unbounded>false</lower_unbounded>
+                        <upper_unbounded>false</upper_unbounded>
+                        <lower>1</lower>
+                        <upper>1</upper>
+                      </existence>
+                      <children xsi:type="C_COMPLEX_OBJECT">
+                        <rm_type_name>DV_CODED_TEXT</rm_type_name>
+                        <occurrences>
+                          <lower_included>true</lower_included>
+                          <upper_included>true</upper_included>
+                          <lower_unbounded>false</lower_unbounded>
+                          <upper_unbounded>false</upper_unbounded>
+                          <lower>1</lower>
+                          <upper>1</upper>
+                        </occurrences>
+                        <node_id />
+                        <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+                          <rm_attribute_name>defining_code</rm_attribute_name>
+                          <existence>
+                            <lower_unbounded>false</lower_unbounded>
+                            <upper_unbounded>false</upper_unbounded>
+                            <lower>1</lower>
+                            <upper>1</upper>
+                          </existence>
+                          <children xsi:type="C_CODE_PHRASE">
+                            <rm_type_name>CODE_PHRASE</rm_type_name>
+                            <occurrences>
+                              <lower_included>true</lower_included>
+                              <upper_included>true</upper_included>
+                              <lower_unbounded>false</lower_unbounded>
+                              <upper_unbounded>false</upper_unbounded>
+                              <lower>1</lower>
+                              <upper>1</upper>
+                            </occurrences>
+                            <node_id />
+                            <terminology_id>
+                              <value>local</value>
+                            </terminology_id>
+                            <code_list>at0016</code_list>
+                            <code_list>at0020</code_list>
+                          </children>
+                        </attributes>
+                      </children>
+                    </attributes>
+                  </children>
+                  <children xsi:type="C_COMPLEX_OBJECT">
+                    <rm_type_name>ELEMENT</rm_type_name>
+                    <occurrences>
+                      <lower_included>true</lower_included>
+                      <upper_included>true</upper_included>
+                      <lower_unbounded>false</lower_unbounded>
+                      <upper_unbounded>false</upper_unbounded>
+                      <lower>0</lower>
+                      <upper>1</upper>
+                    </occurrences>
+                    <node_id>at0019</node_id>
+                    <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+                      <rm_attribute_name>value</rm_attribute_name>
+                      <existence>
+                        <lower_unbounded>false</lower_unbounded>
+                        <upper_unbounded>false</upper_unbounded>
+                        <lower>1</lower>
+                        <upper>1</upper>
+                      </existence>
+                      <children xsi:type="C_COMPLEX_OBJECT">
+                        <rm_type_name>DV_TEXT</rm_type_name>
+                        <occurrences>
+                          <lower_included>true</lower_included>
+                          <upper_included>true</upper_included>
+                          <lower_unbounded>false</lower_unbounded>
+                          <upper_unbounded>false</upper_unbounded>
+                          <lower>1</lower>
+                          <upper>1</upper>
+                        </occurrences>
+                        <node_id />
+                      </children>
+                    </attributes>
+                  </children>
+                  <cardinality>
+                    <is_ordered>false</is_ordered>
+                    <is_unique>false</is_unique>
+                    <interval>
+                      <lower_included>true</lower_included>
+                      <upper_included>false</upper_included>
+                      <lower_unbounded>false</lower_unbounded>
+                      <upper_unbounded>true</upper_unbounded>
+                      <lower>0</lower>
+                    </interval>
+                  </cardinality>
+                </attributes>
+              </children>
+            </attributes>
+          </children>
+          <cardinality>
+            <is_ordered>false</is_ordered>
+            <is_unique>false</is_unique>
+            <interval>
+              <lower_included>true</lower_included>
+              <upper_included>false</upper_included>
+              <lower_unbounded>false</lower_unbounded>
+              <upper_unbounded>true</upper_unbounded>
+              <lower>1</lower>
+            </interval>
+          </cardinality>
+        </attributes>
+      </children>
+    </attributes>
+    <attributes xsi:type="C_SINGLE_ATTRIBUTE">
+      <rm_attribute_name>protocol</rm_attribute_name>
+      <existence>
+        <lower_unbounded>false</lower_unbounded>
+        <upper_unbounded>false</upper_unbounded>
+        <lower>1</lower>
+        <upper>1</upper>
+      </existence>
+      <children xsi:type="C_COMPLEX_OBJECT">
+        <rm_type_name>ITEM_TREE</rm_type_name>
+        <occurrences>
+          <lower_included>true</lower_included>
+          <upper_included>true</upper_included>
+          <lower_unbounded>false</lower_unbounded>
+          <upper_unbounded>false</upper_unbounded>
+          <lower>1</lower>
+          <upper>1</upper>
+        </occurrences>
+        <node_id>at0007</node_id>
+        <attributes xsi:type="C_MULTIPLE_ATTRIBUTE">
+          <rm_attribute_name>items</rm_attribute_name>
+          <existence>
+            <lower_unbounded>false</lower_unbounded>
+            <upper_unbounded>false</upper_unbounded>
+            <lower>1</lower>
+            <upper>1</upper>
+          </existence>
+          <children xsi:type="ARCHETYPE_SLOT">
+            <rm_type_name>CLUSTER</rm_type_name>
+            <occurrences>
+              <lower_included>true</lower_included>
+              <upper_included>true</upper_included>
+              <lower_unbounded>false</lower_unbounded>
+              <upper_unbounded>false</upper_unbounded>
+              <lower>0</lower>
+              <upper>1</upper>
+            </occurrences>
+            <node_id>at0011</node_id>
+            <includes>
+              <tag />
+              <string_expression />
+              <expression xsi:type="EXPR_BINARY_OPERATOR">
+                <type>BOOLEAN</type>
+                <operator>2007</operator>
+                <precedence_overridden>false</precedence_overridden>
+                <left_operand xsi:type="EXPR_LEAF">
+                  <type>STRING</type>
+                  <item xsi:type="xsd:string">archetype_id/value</item>
+                  <reference_type>CONSTANT</reference_type>
+                </left_operand>
+                <right_operand xsi:type="EXPR_LEAF">
+                  <type>String</type>
+                  <item xsi:type="C_STRING">
+                    <pattern>openEHR-EHR-CLUSTER\.device(-[a-zA-Z0-9_]+)*\.v1</pattern>
+                  </item>
+                  <reference_type>CONSTANT</reference_type>
+                </right_operand>
+              </expression>
+            </includes>
+          </children>
+          <cardinality>
+            <is_ordered>true</is_ordered>
+            <is_unique>false</is_unique>
+            <interval>
+              <lower_included>true</lower_included>
+              <upper_included>false</upper_included>
+              <lower_unbounded>false</lower_unbounded>
+              <upper_unbounded>true</upper_unbounded>
+              <lower>0</lower>
+            </interval>
+          </cardinality>
+        </attributes>
+      </children>
+    </attributes>
+  </definition>
+  <ontology>
+    <term_definitions language="en">
+      <items code="at0000">
+        <items id="text">Height/Length</items>
+        <items id="description">Height, or body length, is measured from crown of head to sole of foot.  Height is measured with the individual in a standing position and body length in a recumbent position.</items>
+      </items>
+      <items code="at0001">
+        <items id="text">history</items>
+        <items id="description">@ internal @</items>
+      </items>
+      <items code="at0002">
+        <items id="text">Any event</items>
+        <items id="description">Any timed measurement of height or body length.</items>
+      </items>
+      <items code="at0003">
+        <items id="text">Simple</items>
+        <items id="description">@ internal @</items>
+      </items>
+      <items code="at0004">
+        <items id="text">Height/Length</items>
+        <items id="description">The length of the body from crown of head to sole of foot.</items>
+      </items>
+      <items code="at0007">
+        <items id="text">List</items>
+        <items id="description">@ internal @</items>
+      </items>
+      <items code="at0011">
+        <items id="text">Device</items>
+        <items id="description">Description of the device used to measure height or body length.</items>
+      </items>
+      <items code="at0013">
+        <items id="text">Tree</items>
+        <items id="description">@ internal @</items>
+      </items>
+      <items code="at0014">
+        <items id="text">Position</items>
+        <items id="description">Position of individual when measured.</items>
+      </items>
+      <items code="at0016">
+        <items id="text">Standing</items>
+        <items id="description">Height is measured standing on both feet with weight distributed evenly, heels together and both buttocks and heels in contact with a vertical back board.</items>
+      </items>
+      <items code="at0018">
+        <items id="text">Comment</items>
+        <items id="description">Comment about the measurement of body height/length.</items>
+      </items>
+      <items code="at0019">
+        <items id="text">Confounding factors</items>
+        <items id="description">Record any issues or factors that may impact on the measurement of body height/length eg noting of amputation.</items>
+      </items>
+      <items code="at0020">
+        <items id="text">Lying</items>
+        <items id="description">Length is measured in a fully extended, recumbent position with the pelvis flat, legs extended and feet flexed.</items>
+      </items>
+    </term_definitions>
+    <term_definitions language="pt-br">
+      <items code="at0000">
+        <items id="text">Altura / comprimento</items>
+        <items id="description">Altura ou comprimento do corpo, é medida a partir da coroa da cabeça a sola do pé.
+A altura é medida com o indivíduo na posição de pé e comprimento do corpo na posição decúbito dorsal.</items>
+      </items>
+      <items code="at0001">
+        <items id="text">history</items>
+        <items id="description">@ internal @</items>
+      </items>
+      <items code="at0002">
+        <items id="text">Qualquer evento</items>
+        <items id="description">Medida a qualquer momento da altura ou comprimento do corpo.</items>
+      </items>
+      <items code="at0003">
+        <items id="text">Simple</items>
+        <items id="description">@ internal @</items>
+      </items>
+      <items code="at0004">
+        <items id="text">Altura / comprimento</items>
+        <items id="description">O comprimento do corpo da coroa da cabeça a sola do pé.</items>
+      </items>
+      <items code="at0007">
+        <items id="text">List</items>
+        <items id="description">@ internal @</items>
+      </items>
+      <items code="at0011">
+        <items id="text">Dispositivo</items>
+        <items id="description">Descrição do dispositivo utilizado para medir altura ou comprimento do corpo.</items>
+      </items>
+      <items code="at0013">
+        <items id="text">Tree</items>
+        <items id="description">@ internal @</items>
+      </items>
+      <items code="at0014">
+        <items id="text">Posição</items>
+        <items id="description">Posição individual quando medido.</items>
+      </items>
+      <items code="at0016">
+        <items id="text">De pé</items>
+        <items id="description">A altura é medida de pé sobre os dois pés com o peso distribuído uniformemente, calcanhares juntos e as nádegas e os calcanhares em contato com uma placa traseira vertical.</items>
+      </items>
+      <items code="at0018">
+        <items id="text">Comentário</items>
+        <items id="description">Comentário sobre a medição da altura/comprimento do corpo.</items>
+      </items>
+      <items code="at0019">
+        <items id="text">Fatore de erro</items>
+        <items id="description">Registrar quaisquer problemas ou fatores que possam ter impacto sobre a medição da altura/comprimento do corpo, por exemplo, observação de amputação.</items>
+      </items>
+      <items code="at0020">
+        <items id="text">Decúbito dorsal</items>
+        <items id="description">O comprimento é medido em uma posição totalmente estendida, deitada com a pelve plana, pernas estendidas e os pés flexionados.</items>
+      </items>
+    </term_definitions>
+  </ontology>
+</archetype>
+

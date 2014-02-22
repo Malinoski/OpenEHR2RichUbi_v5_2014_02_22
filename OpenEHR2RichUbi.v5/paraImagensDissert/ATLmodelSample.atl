@@ -1,0 +1,19 @@
+module ATLmodelSample;
+create target: TargetMetamodel from source: SourceMetamodel;
+
+rule Component2Component{
+	from source: SourceMetamodel!Component
+	to target: TargetMetamodel!Component
+}
+
+rule Composite2Composite extends Component2Component{
+	from source: SourceMetamodel!Composite
+	to target: TargetMetamodel!Composite(
+		children <- source.children
+	)
+}
+
+rule Leaf2Leaf extends Component2Component{
+	from source: SourceMetamodel!Leaf
+	to target: TargetMetamodel!Leaf
+}

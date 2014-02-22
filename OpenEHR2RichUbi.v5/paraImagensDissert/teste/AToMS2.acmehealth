@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ACMEHealth:ACMEFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ACMEHealth="ACMEHealth" xmlns:EmergencyFamily="EmergencyFamily">
+  <entries xsi:type="EmergencyFamily:EmergencySystem" name="AToMS">
+    <paramedic name="Ambulance Staff">
+      <observationForms name="HeartRateForm">
+        <archetypeIds>openEHR-EHR-OBSERVATION.heart_rate.v1</archetypeIds>
+      </observationForms>
+      <observationForms name="BloodPressureForm">
+        <archetypeIds>openEHR-EHR-OBSERVATION.blood_pressure.v1</archetypeIds>
+      </observationForms>
+    </paramedic>
+    <specialist name="Cardiologist">
+      <observationViews name="BloodPressureView">
+        <archetypeIds>openEHR-EHR-OBSERVATION.blood_pressure.v1</archetypeIds>
+      </observationViews>
+      <observationViews name="HeartRateView">
+        <archetypeIds>openEHR-EHR-OBSERVATION.heart_rate.v1</archetypeIds>
+      </observationViews>
+      <instructionForms name="MedicationForm">
+        <archetypeIds>openEHR-EHR-INSTRUCTION.medication.v1</archetypeIds>
+      </instructionForms>
+    </specialist>
+  </entries>
+</ACMEHealth:ACMEFile>

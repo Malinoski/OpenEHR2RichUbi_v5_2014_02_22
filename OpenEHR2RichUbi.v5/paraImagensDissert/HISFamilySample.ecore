@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <ecore:EPackage name="PrimitiveTypes" nsURI="PrimitiveTypes" nsPrefix="PrimitiveTypes">
+    <eClassifiers xsi:type="ecore:EDataType" name="String" instanceClassName="java.lang.String"/>
+  </ecore:EPackage>
+  <ecore:EPackage name="ACME" nsURI="ACMEHealth" nsPrefix="ACMEHealth">
+    <eClassifiers xsi:type="ecore:EClass" name="Component" abstract="true"/>
+  </ecore:EPackage>
+  <ecore:EPackage name="GUIProperty" nsURI="GUIProperty" nsPrefix="GUIProperty">
+    <eClassifiers xsi:type="ecore:EClass" name="PropertyEHR" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="archetypeIds" ordered="false"
+          unique="false" upperBound="-1" eType="#/0/String"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="EHRForm" abstract="true" eSuperTypes="#/2/PropertyEHR"/>
+    <eClassifiers xsi:type="ecore:EClass" name="EHRView" abstract="true" eSuperTypes="#/2/PropertyEHR"/>
+    <eClassifiers xsi:type="ecore:EClass" name="EHRObservationView" eSuperTypes="#/2/EHRView"/>
+    <eClassifiers xsi:type="ecore:EClass" name="EHRInstructionForm" eSuperTypes="#/2/EHRForm"/>
+    <eClassifiers xsi:type="ecore:EClass" name="EHRActionForm" eSuperTypes="#/2/EHRForm"/>
+    <eClassifiers xsi:type="ecore:EClass" name="EHREvaluationForm" eSuperTypes="#/2/EHRForm"/>
+    <eClassifiers xsi:type="ecore:EClass" name="EHRObservationForm" eSuperTypes="#/2/EHRForm"/>
+    <eClassifiers xsi:type="ecore:EClass" name="EHRInstructionView" eSuperTypes="#/2/EHRView"/>
+    <eClassifiers xsi:type="ecore:EClass" name="EHRActionView" eSuperTypes="#/2/EHRView"/>
+    <eClassifiers xsi:type="ecore:EClass" name="EHREvaluationView" eSuperTypes="#/2/EHRView"/>
+  </ecore:EPackage>
+  <ecore:EPackage name="DomainFamilyPackage" nsURI="HISFamily" nsPrefix="HISFamily">
+    <eClassifiers xsi:type="ecore:EClass" name="DomainFamily">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="client" eType="#/3/ClientComponent"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="server" eType="#/3/ServerComponent"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ClientComponent" eSuperTypes="#/1/Component">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="formReferenceSample"
+          eType="#/2/EHRObservationForm"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ServerComponent" eSuperTypes="#/1/Component"/>
+  </ecore:EPackage>
+</xmi:XMI>

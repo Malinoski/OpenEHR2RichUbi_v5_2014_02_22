@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- ====================================================================== 
+     17/09/2007 11:30:06                                                        
+
+     AnnotatedEUC2ServiceProcess    
+     description
+                   
+     JMVARA                                                                
+     ====================================================================== -->
+<project name="OpenEHR2RichUbi.v4" default="transformation">
+	<description>
+            This project launch the ATL transformation for obtaining a Service Process model
+    		from an Extended Use Case model
+    </description>
+	
+	<!-- Project properties -->
+	<property file="build.properties" />
+	
+	<!-- ================================= 
+          target: default              
+         ================================= -->
+
+	<target name="transformation" depends="loadModels">
+		<atl.launch path="${atl.file}">
+			<inmodel  name="${source.archM.var}"  model="archM.var" />
+			<inmodel  name="${source.archMM.var}" model="archMM.var" />
+			<inmodel  name="${source.ehrM.var}"   model="ehrM.var" />
+			<inmodel  name="${source.ehrMM.var}"  model="ehrMM.var" />
+			<inmodel  name="${target.richMM.var}" model="richMM.var" />
+			<outmodel name="${target.richM.var}"  model="richM.var" metamodel="richMM.var" />
+			<library name="helper" path="${atl.helper}"/>
+		</atl.launch>
+		<atl.saveModel model="richM.var" path="${target.richM.file}" />
+	</target>
+
+	<target name="loadModels">
+		<atl.loadModel modelHandler="EMF" name="archMM.var" metamodel="MOF" path="${source.archMM.file}" />
+		<atl.loadModel modelHandler="EMF" name="archM.var" metamodel="archMM.var" path="${source.archM.file}" />
+		<atl.loadModel modelHandler="EMF" name="ehrMM.var" metamodel="MOF" path="${source.ehrMM.file}" />
+		<atl.loadModel modelHandler="EMF" name="ehrM.var" metamodel="ehrMM.var" path="${source.ehrM.file}" />
+		
+		<atl.loadModel modelHandler="EMF" name="richMM.var" metamodel="MOF" path="${target.richMM.file}" />
+	</target>
+
+</project>

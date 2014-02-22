@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br.ufscar.dc.richinterface.metamodel="platform:/resource/br.ufscar.dc.richinterface.metamodel/model/rich_interface_components.ecore">
+  <br.ufscar.dc.richinterface.metamodel:Portal name="UK Databank Based - Clinician">
+    <headerRegion/>
+    <navigationRegion>
+      <linkGroups title="Clinician"/>
+    </navigationRegion>
+    <contentRegion>
+      <documents title="Clinician - HeightCollectorForm" fileName="ClinicianHeightCollectorForm">
+        <forms name="HeightCollectorForm">
+          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="HeightCollectorForm">
+            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPE" id="ARCHETYPE---Height/Length">
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPELabelGroup" id="ARCHETYPELabelGroup">
+                <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ARCHETYPESpan" id="ARCHETYPESpan" text="Height/Length"/>
+                <lineBreaks/>
+                <lineBreaks/>
+              </blockLevelComponents>
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---OBSERVATION---at0000">
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_data" id="OBSERVATION_data">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---HISTORY---at0001">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="HISTORY_events" id="HISTORY_events">
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---EVENT---at0002">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_data" id="EVENT_data">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_dataLabelGroup" id="EVENT_dataLabelGroup">
+                            <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENT_dataSpan" id="EVENT_dataSpan" text="data"/>
+                            <lineBreaks/>
+                            <lineBreaks/>
+                          </blockLevelComponents>
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0003">
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0004">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CDVQUANTITY---DV_QUANTITY">
+                                    <fieldsets legend="Height/Length">
+                                      <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextField" name="Height/Length"/>
+                                      <controls xsi:type="br.ufscar.dc.richinterface.metamodel:Select">
+                                        <items itemLabel="cm" value="cm"/>
+                                        <items itemLabel="in" value="in"/>
+                                      </controls>
+                                    </fieldsets>
+                                  </blockLevelComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0018">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                                    <fieldsets legend="Comment">
+                                      <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextArea"/>
+                                    </fieldsets>
+                                  </blockLevelComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_state" id="EVENT_state">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_stateLabelGroup" id="EVENT_stateLabelGroup">
+                            <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENT_stateSpan" id="EVENT_stateSpan" text="state"/>
+                            <lineBreaks/>
+                            <lineBreaks/>
+                          </blockLevelComponents>
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0013">
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0014">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_CODED_TEXT">
+                                    <fieldsets legend="Position">
+                                      <controls xsi:type="br.ufscar.dc.richinterface.metamodel:Select" id="Clinician---openEHR-EHR-OBSERVATION.height.v1---at0014">
+                                        <items itemLabel="Standing" value="Standing"/>
+                                        <items itemLabel="Lying" value="Lying"/>
+                                      </controls>
+                                    </fieldsets>
+                                  </blockLevelComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0019">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                                    <fieldsets legend="Confounding factors">
+                                      <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextArea"/>
+                                    </fieldsets>
+                                  </blockLevelComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                    </blockLevelComponents>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_protocol" id="OBSERVATION_protocol">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_protocolLabelGroup" id="OBSERVATION_protocolLabelGroup">
+                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATION_protocolSpan" id="OBSERVATION_protocolSpan" text="protocol"/>
+                    <lineBreaks/>
+                    <lineBreaks/>
+                  </blockLevelComponents>
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0007">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="ARCHETYPESLOT---CLUSTER---at0011"/>
+                    </blockLevelComponents>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+              </blockLevelComponents>
+            </blockLevelComponents>
+          </blockLevelComponents>
+        </forms>
+      </documents>
+      <documents title="Clinician - WeightCollectorForm" fileName="ClinicianWeightCollectorForm">
+        <forms name="WeightCollectorForm">
+          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="WeightCollectorForm">
+            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPE" id="ARCHETYPE---Body weight">
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPELabelGroup" id="ARCHETYPELabelGroup">
+                <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ARCHETYPESpan" id="ARCHETYPESpan" text="Body weight"/>
+                <lineBreaks/>
+                <lineBreaks/>
+              </blockLevelComponents>
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---OBSERVATION---at0000">
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_data" id="OBSERVATION_data">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---HISTORY---at0002">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="HISTORY_events" id="HISTORY_events">
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---EVENT---at0003">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_data" id="EVENT_data">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_dataLabelGroup" id="EVENT_dataLabelGroup">
+                            <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENT_dataSpan" id="EVENT_dataSpan" text="data"/>
+                            <lineBreaks/>
+                            <lineBreaks/>
+                          </blockLevelComponents>
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0001">
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0004">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CDVQUANTITY---DV_QUANTITY">
+                                    <fieldsets legend="Weight">
+                                      <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextField" name="Weight"/>
+                                      <controls xsi:type="br.ufscar.dc.richinterface.metamodel:Select">
+                                        <items itemLabel="kg" value="kg"/>
+                                        <items itemLabel="lb" value="lb"/>
+                                      </controls>
+                                    </fieldsets>
+                                  </blockLevelComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0024">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                                    <fieldsets legend="Comment">
+                                      <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextArea"/>
+                                    </fieldsets>
+                                  </blockLevelComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_state" id="EVENT_state">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_stateLabelGroup" id="EVENT_stateLabelGroup">
+                            <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENT_stateSpan" id="EVENT_stateSpan" text="state"/>
+                            <lineBreaks/>
+                            <lineBreaks/>
+                          </blockLevelComponents>
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0008">
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0009">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_CODED_TEXT">
+                                    <fieldsets legend="State of Dress">
+                                      <controls xsi:type="br.ufscar.dc.richinterface.metamodel:Select" id="Clinician---openEHR-EHR-OBSERVATION.body_weight.v1---at0009">
+                                        <items itemLabel="Lightly clothed/underwear" value="Lightly clothed/underwear"/>
+                                        <items itemLabel="Naked" value="Naked"/>
+                                        <items itemLabel="Fully clothed, including shoes" value="Fully clothed, including shoes"/>
+                                        <items itemLabel="Nappy/diaper" value="Nappy/diaper"/>
+                                      </controls>
+                                    </fieldsets>
+                                  </blockLevelComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0025">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                                    <fieldsets legend="Confounding Factors">
+                                      <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextArea"/>
+                                    </fieldsets>
+                                  </blockLevelComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                    </blockLevelComponents>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_protocol" id="OBSERVATION_protocol">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_protocolLabelGroup" id="OBSERVATION_protocolLabelGroup">
+                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATION_protocolSpan" id="OBSERVATION_protocolSpan" text="protocol"/>
+                    <lineBreaks/>
+                    <lineBreaks/>
+                  </blockLevelComponents>
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0015">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="ARCHETYPESLOT---CLUSTER---at0020"/>
+                    </blockLevelComponents>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+              </blockLevelComponents>
+            </blockLevelComponents>
+          </blockLevelComponents>
+        </forms>
+      </documents>
+    </contentRegion>
+    <footerRegion/>
+  </br.ufscar.dc.richinterface.metamodel:Portal>
+  <br.ufscar.dc.richinterface.metamodel:Portal name="UK Databank Based - Researcher Epidemiologist">
+    <headerRegion/>
+    <navigationRegion>
+      <linkGroups title="Researcher Epidemiologist"/>
+    </navigationRegion>
+    <contentRegion>
+      <documents title="Researcher Epidemiologist - HeightEpidemiologistView" fileName="Researcher EpidemiologistHeightEpidemiologistView">
+        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="HeightEpidemiologistView">
+          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPE" id="ARCHETYPE---Height/Length">
+            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPELabelGroup" id="ARCHETYPELabelGroup">
+              <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ARCHETYPESpan" id="ARCHETYPESpan" text="Height/Length"/>
+              <lineBreaks/>
+              <lineBreaks/>
+            </blockLevelComponents>
+            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---OBSERVATION---at0000">
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_data" id="OBSERVATION_data">
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---HISTORY---at0001">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="HISTORY_events" id="HISTORY_events">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---EVENT---at0002">
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_data" id="EVENT_data">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_dataLabelGroup" id="EVENT_dataLabelGroup">
+                          <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENT_dataSpan" id="EVENT_dataSpan" text="data"/>
+                          <lineBreaks/>
+                          <lineBreaks/>
+                        </blockLevelComponents>
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0003">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0004">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="DV_QUANTITY">
+                                  <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" text="Height/Length">
+                                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:PhraseElement" id="at0004" text="N/A"/>
+                                  </inlineComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0018">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                                  <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" text="Comment">
+                                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:PhraseElement" id="at0018" text="N/A"/>
+                                  </inlineComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_state" id="EVENT_state">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_stateLabelGroup" id="EVENT_stateLabelGroup">
+                          <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENT_stateSpan" id="EVENT_stateSpan" text="state"/>
+                          <lineBreaks/>
+                          <lineBreaks/>
+                        </blockLevelComponents>
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0013">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0014">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_CODED_TEXT">
+                                  <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" text="Position">
+                                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:PhraseElement" id="at0014" text="N/A"/>
+                                  </inlineComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0019">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                                  <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" text="Confounding factors">
+                                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:PhraseElement" id="at0019" text="N/A"/>
+                                  </inlineComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                    </blockLevelComponents>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+              </blockLevelComponents>
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_protocol" id="OBSERVATION_protocol">
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_protocolLabelGroup" id="OBSERVATION_protocolLabelGroup">
+                  <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATION_protocolSpan" id="OBSERVATION_protocolSpan" text="protocol"/>
+                  <lineBreaks/>
+                  <lineBreaks/>
+                </blockLevelComponents>
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0007">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="ARCHETYPESLOT---CLUSTER---at0011"/>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+              </blockLevelComponents>
+            </blockLevelComponents>
+          </blockLevelComponents>
+        </blockLevelComponents>
+      </documents>
+      <documents title="Researcher Epidemiologist - WeightEpidemilogistView" fileName="Researcher EpidemiologistWeightEpidemilogistView">
+        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="WeightEpidemilogistView">
+          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPE" id="ARCHETYPE---Height/Length">
+            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPELabelGroup" id="ARCHETYPELabelGroup">
+              <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ARCHETYPESpan" id="ARCHETYPESpan" text="Height/Length"/>
+              <lineBreaks/>
+              <lineBreaks/>
+            </blockLevelComponents>
+            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---OBSERVATION---at0000">
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_data" id="OBSERVATION_data">
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---HISTORY---at0001">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="HISTORY_events" id="HISTORY_events">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---EVENT---at0002">
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_data" id="EVENT_data">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_dataLabelGroup" id="EVENT_dataLabelGroup">
+                          <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENT_dataSpan" id="EVENT_dataSpan" text="data"/>
+                          <lineBreaks/>
+                          <lineBreaks/>
+                        </blockLevelComponents>
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0003">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0004">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="DV_QUANTITY">
+                                  <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" text="Height/Length">
+                                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:PhraseElement" id="at0004" text="N/A"/>
+                                  </inlineComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0018">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                                  <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" text="Comment">
+                                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:PhraseElement" id="at0018" text="N/A"/>
+                                  </inlineComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_state" id="EVENT_state">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVENT_stateLabelGroup" id="EVENT_stateLabelGroup">
+                          <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENT_stateSpan" id="EVENT_stateSpan" text="state"/>
+                          <lineBreaks/>
+                          <lineBreaks/>
+                        </blockLevelComponents>
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0013">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0014">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_CODED_TEXT">
+                                  <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" text="Position">
+                                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:PhraseElement" id="at0014" text="N/A"/>
+                                  </inlineComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0019">
+                              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                                  <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" text="Confounding factors">
+                                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:PhraseElement" id="at0019" text="N/A"/>
+                                  </inlineComponents>
+                                </blockLevelComponents>
+                              </blockLevelComponents>
+                            </blockLevelComponents>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                    </blockLevelComponents>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+              </blockLevelComponents>
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_protocol" id="OBSERVATION_protocol">
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="OBSERVATION_protocolLabelGroup" id="OBSERVATION_protocolLabelGroup">
+                  <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATION_protocolSpan" id="OBSERVATION_protocolSpan" text="protocol"/>
+                  <lineBreaks/>
+                  <lineBreaks/>
+                </blockLevelComponents>
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0007">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="ARCHETYPESLOT---CLUSTER---at0011"/>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+              </blockLevelComponents>
+            </blockLevelComponents>
+          </blockLevelComponents>
+        </blockLevelComponents>
+      </documents>
+      <documents title="Researcher Epidemiologist - EpidemiologistAlertForm" fileName="Researcher EpidemiologistEpidemiologistAlertForm">
+        <forms name="EpidemiologistAlertForm">
+          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="EpidemiologistAlertForm">
+            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPE" id="ARCHETYPE---Alert">
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPELabelGroup" id="ARCHETYPELabelGroup">
+                <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ARCHETYPESpan" id="ARCHETYPESpan" text="Alert"/>
+                <lineBreaks/>
+                <lineBreaks/>
+              </blockLevelComponents>
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---EVALUATION---at0000">
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVALUATION_data" id="EVALUATION_data">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVALUATION_dataLabelGroup" id="EVALUATION_dataLabelGroup">
+                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVALUATION_dataSpan" id="EVALUATION_dataSpan" text="data"/>
+                    <lineBreaks/>
+                    <lineBreaks/>
+                  </blockLevelComponents>
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_LIST---at0001">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_LIST_items" id="ITEM_LIST_items">
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0015">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                            <fieldsets legend="Alert">
+                              <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextArea"/>
+                            </fieldsets>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0002">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                            <fieldsets legend="Category">
+                              <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextArea"/>
+                            </fieldsets>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0003">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                            <fieldsets legend="Description">
+                              <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextArea"/>
+                            </fieldsets>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0009">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_CODED_TEXT">
+                            <fieldsets legend="Status">
+                              <controls xsi:type="br.ufscar.dc.richinterface.metamodel:Select" id="Researcher Epidemiologist---openEHR-EHR-EVALUATION.alert.v1---at0009">
+                                <items itemLabel="Active" value="Active"/>
+                                <items itemLabel="Inactive" value="Inactive"/>
+                                <items itemLabel="Resolved" value="Resolved"/>
+                              </controls>
+                            </fieldsets>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0004">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_DATE_TIME---"/>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0010">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_DATE_TIME---"/>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0014">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_DATE_TIME---"/>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                    </blockLevelComponents>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+              </blockLevelComponents>
+            </blockLevelComponents>
+          </blockLevelComponents>
+        </forms>
+      </documents>
+      <documents title="Researcher Epidemiologist - EpidemiologistRiskForm" fileName="Researcher EpidemiologistEpidemiologistRiskForm">
+        <forms name="EpidemiologistRiskForm">
+          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="EpidemiologistRiskForm">
+            <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPE" id="ARCHETYPE---Evaluation of risk of condition">
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ARCHETYPELabelGroup" id="ARCHETYPELabelGroup">
+                <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ARCHETYPESpan" id="ARCHETYPESpan" text="Evaluation of risk of condition"/>
+                <lineBreaks/>
+                <lineBreaks/>
+              </blockLevelComponents>
+              <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---EVALUATION---at0000">
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVALUATION_data" id="EVALUATION_data">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVALUATION_dataLabelGroup" id="EVALUATION_dataLabelGroup">
+                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVALUATION_dataSpan" id="EVALUATION_dataSpan" text="data"/>
+                    <lineBreaks/>
+                    <lineBreaks/>
+                  </blockLevelComponents>
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_TREE---at0001">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_TREE_items" id="ITEM_TREE_items">
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0002">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                            <fieldsets legend="Index condition">
+                              <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextArea"/>
+                            </fieldsets>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0003">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_CODED_TEXT">
+                            <fieldsets legend="Significance of risk">
+                              <controls xsi:type="br.ufscar.dc.richinterface.metamodel:Select" id="Researcher Epidemiologist---openEHR-EHR-EVALUATION.risk.v1---at0003">
+                                <items itemLabel="Not significant" value="Not significant"/>
+                                <items itemLabel="Minimal significance" value="Minimal significance"/>
+                                <items itemLabel="Significant" value="Significant"/>
+                                <items itemLabel="Highly significant" value="Highly significant"/>
+                              </controls>
+                            </fieldsets>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0004">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                            <fieldsets legend="Rationale">
+                              <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextArea"/>
+                            </fieldsets>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                    </blockLevelComponents>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+                <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVALUATION_protocol" id="EVALUATION_protocol">
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="EVALUATION_protocolLabelGroup" id="EVALUATION_protocolLabelGroup">
+                    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVALUATION_protocolSpan" id="EVALUATION_protocolSpan" text="protocol"/>
+                    <lineBreaks/>
+                    <lineBreaks/>
+                  </blockLevelComponents>
+                  <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ITEM_LIST---at0010">
+                    <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ITEM_LIST_items" id="ITEM_LIST_items">
+                      <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---ELEMENT---at0011">
+                        <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" class="ELEMENT_value" id="ELEMENT_value">
+                          <blockLevelComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Div" id="CCOMPLEXOBJECT---DV_TEXT">
+                            <fieldsets legend="Risk calculation">
+                              <controls xsi:type="br.ufscar.dc.richinterface.metamodel:TextArea"/>
+                            </fieldsets>
+                          </blockLevelComponents>
+                        </blockLevelComponents>
+                      </blockLevelComponents>
+                    </blockLevelComponents>
+                  </blockLevelComponents>
+                </blockLevelComponents>
+              </blockLevelComponents>
+            </blockLevelComponents>
+          </blockLevelComponents>
+        </forms>
+      </documents>
+    </contentRegion>
+    <footerRegion/>
+  </br.ufscar.dc.richinterface.metamodel:Portal>
+  <br.ufscar.dc.richinterface.metamodel:Div class="OBSERVATIONLabelGroup" id="OBSERVATIONLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATIONSpan" id="OBSERVATIONSpan" text="OBSERVATION"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="OBSERVATION_dataLabelGroup" id="OBSERVATION_dataLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATION_dataSpan" id="OBSERVATION_dataSpan" text="data"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="HISTORYLabelGroup" id="HISTORYLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="HISTORYSpan" id="HISTORYSpan" text="HISTORY"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="HISTORY_eventsLabelGroup" id="HISTORY_eventsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="HISTORY_eventsSpan" id="HISTORY_eventsSpan" text="events"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="EVENTLabelGroup" id="EVENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENTSpan" id="EVENTSpan" text="EVENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:TextField readonly="true"/>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_QUANTITYLabelGroup" id="DV_QUANTITYLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_QUANTITYSpan" id="DV_QUANTITYSpan" text="DV_QUANTITY"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_CODED_TEXTLabelGroup" id="DV_CODED_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_CODED_TEXTSpan" id="DV_CODED_TEXTSpan" text="DV_CODED_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="OBSERVATIONLabelGroup" id="OBSERVATIONLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATIONSpan" id="OBSERVATIONSpan" text="OBSERVATION"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="OBSERVATION_dataLabelGroup" id="OBSERVATION_dataLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATION_dataSpan" id="OBSERVATION_dataSpan" text="data"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="HISTORYLabelGroup" id="HISTORYLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="HISTORYSpan" id="HISTORYSpan" text="HISTORY"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="HISTORY_eventsLabelGroup" id="HISTORY_eventsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="HISTORY_eventsSpan" id="HISTORY_eventsSpan" text="events"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="EVENTLabelGroup" id="EVENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENTSpan" id="EVENTSpan" text="EVENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:TextField readonly="true"/>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_QUANTITYLabelGroup" id="DV_QUANTITYLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_QUANTITYSpan" id="DV_QUANTITYSpan" text="DV_QUANTITY"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_CODED_TEXTLabelGroup" id="DV_CODED_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_CODED_TEXTSpan" id="DV_CODED_TEXTSpan" text="DV_CODED_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="EVALUATIONLabelGroup" id="EVALUATIONLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVALUATIONSpan" id="EVALUATIONSpan" text="EVALUATION"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_LISTLabelGroup" id="ITEM_LISTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_LISTSpan" id="ITEM_LISTSpan" text="ITEM_LIST"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_LIST_itemsLabelGroup" id="ITEM_LIST_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_LIST_itemsSpan" id="ITEM_LIST_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_CODED_TEXTLabelGroup" id="DV_CODED_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_CODED_TEXTSpan" id="DV_CODED_TEXTSpan" text="DV_CODED_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_DATE_TIMELabelGroup" id="DV_DATE_TIMELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_DATE_TIMESpan" id="DV_DATE_TIMESpan" text="DV_DATE_TIME"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_DATE_TIMELabelGroup" id="DV_DATE_TIMELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_DATE_TIMESpan" id="DV_DATE_TIMESpan" text="DV_DATE_TIME"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_DATE_TIMELabelGroup" id="DV_DATE_TIMELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_DATE_TIMESpan" id="DV_DATE_TIMESpan" text="DV_DATE_TIME"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="EVALUATIONLabelGroup" id="EVALUATIONLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVALUATIONSpan" id="EVALUATIONSpan" text="EVALUATION"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_CODED_TEXTLabelGroup" id="DV_CODED_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_CODED_TEXTSpan" id="DV_CODED_TEXTSpan" text="DV_CODED_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_LISTLabelGroup" id="ITEM_LISTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_LISTSpan" id="ITEM_LISTSpan" text="ITEM_LIST"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_LIST_itemsLabelGroup" id="ITEM_LIST_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_LIST_itemsSpan" id="ITEM_LIST_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="OBSERVATIONLabelGroup" id="OBSERVATIONLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATIONSpan" id="OBSERVATIONSpan" text="OBSERVATION"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="OBSERVATION_dataLabelGroup" id="OBSERVATION_dataLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATION_dataSpan" id="OBSERVATION_dataSpan" text="data"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="HISTORYLabelGroup" id="HISTORYLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="HISTORYSpan" id="HISTORYSpan" text="HISTORY"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="HISTORY_eventsLabelGroup" id="HISTORY_eventsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="HISTORY_eventsSpan" id="HISTORY_eventsSpan" text="events"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="EVENTLabelGroup" id="EVENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENTSpan" id="EVENTSpan" text="EVENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_QUANTITYLabelGroup" id="DV_QUANTITYLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_QUANTITYSpan" id="DV_QUANTITYSpan" text="DV_QUANTITY"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_CODED_TEXTLabelGroup" id="DV_CODED_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_CODED_TEXTSpan" id="DV_CODED_TEXTSpan" text="DV_CODED_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="OBSERVATIONLabelGroup" id="OBSERVATIONLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATIONSpan" id="OBSERVATIONSpan" text="OBSERVATION"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="OBSERVATION_dataLabelGroup" id="OBSERVATION_dataLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="OBSERVATION_dataSpan" id="OBSERVATION_dataSpan" text="data"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="HISTORYLabelGroup" id="HISTORYLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="HISTORYSpan" id="HISTORYSpan" text="HISTORY"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="HISTORY_eventsLabelGroup" id="HISTORY_eventsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="HISTORY_eventsSpan" id="HISTORY_eventsSpan" text="events"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="EVENTLabelGroup" id="EVENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="EVENTSpan" id="EVENTSpan" text="EVENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_QUANTITYLabelGroup" id="DV_QUANTITYLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_QUANTITYSpan" id="DV_QUANTITYSpan" text="DV_QUANTITY"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_CODED_TEXTLabelGroup" id="DV_CODED_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_CODED_TEXTSpan" id="DV_CODED_TEXTSpan" text="DV_CODED_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENTLabelGroup" id="ELEMENTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENTSpan" id="ELEMENTSpan" text="ELEMENT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ELEMENT_valueLabelGroup" id="ELEMENT_valueLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ELEMENT_valueSpan" id="ELEMENT_valueSpan" text="value"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="DV_TEXTLabelGroup" id="DV_TEXTLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="DV_TEXTSpan" id="DV_TEXTSpan" text="DV_TEXT"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREELabelGroup" id="ITEM_TREELabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREESpan" id="ITEM_TREESpan" text="ITEM_TREE"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+  <br.ufscar.dc.richinterface.metamodel:Div class="ITEM_TREE_itemsLabelGroup" id="ITEM_TREE_itemsLabelGroup">
+    <inlineComponents xsi:type="br.ufscar.dc.richinterface.metamodel:Span" class="ITEM_TREE_itemsSpan" id="ITEM_TREE_itemsSpan" text="items"/>
+    <lineBreaks/>
+    <lineBreaks/>
+  </br.ufscar.dc.richinterface.metamodel:Div>
+</xmi:XMI>
